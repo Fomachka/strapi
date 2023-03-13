@@ -7,5 +7,6 @@ module.exports = () => ({
       filename: path.join(__dirname, "..", ".tmp/data.db"),
     },
     useNullAsDefault: true,
+    pool: { min: 0 },
   },
 });
